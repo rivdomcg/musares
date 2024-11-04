@@ -1,0 +1,208 @@
+/* Estilos Generales */
+   body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #BECEED;
+    color: #0B2447;
+}
+
+/* Estilos para Botones */
+form button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #114179;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #0B2447;
+}
+
+/* Tamaño de botones en dispositivos moviles */
+@media (max-width: 600px) {
+    form button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+/* Encabezado */
+header {
+    background-color: #0B2447;
+    color: #BECEED;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #BECEED;
+}
+
+/* Navegacion */
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #BECEED;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #BECEED;
+}
+
+/* Secciones */
+section {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #114179;
+}
+
+section p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+section img, section video {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+/* Formulario */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 5px 0;
+    font-weight: 600;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #114179;
+    border-radius: 4px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #0B2447;
+    color: white;
+}
+
+footer a {
+    color: #BECEED;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos Responsivos */
+@media (max-width: 600px) {
+    header h1 {
+        padding: 10px 20px;
+        font-size: 24px;
+    }
+
+    nav ul {
+        padding: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        margin: 20px 10px;
+        padding: 20px;
+    }
+
+    form button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    .floating-back-to-top {
+        padding: 10px 15px;
+        font-size: 0.9em;
+    }
+}
+
+/* Boton Flotante */
+.floating-back-to-top {
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+    background-color: #0B2447;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.floating-back-to-top:hover {
+    background-color: #114179;
+    opacity: 1;
+}
+
+/* Estilos para la imagen en la barra de navegacion */
+nav .nav-logo {
+    max-width: 150px;
+    margin-bottom: 10px;
+}
