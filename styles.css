@@ -179,28 +179,6 @@ footer a:hover {
     }
 }
 
-/* Boton Flotante */
-.floating-back-to-top {
-    position: fixed;
-    bottom: 60px;
-    right: 20px;
-    background-color: #0B2447;
-    color: white;
-    padding: 12px 18px;
-    border-radius: 50px;
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 1.1em;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    opacity: 0.8;
-    transition: opacity 0.3s ease;
-}
-
-.floating-back-to-top:hover {
-    background-color: #114179;
-    opacity: 1;
-}
-
 /* Estilos para la imagen en la barra de navegacion */
 nav .nav-logo {
     max-width: 150px;
